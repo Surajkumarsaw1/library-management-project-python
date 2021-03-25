@@ -51,7 +51,9 @@ class Library:
 
             #print(self.dfBooks[self.dfBooks.bookID.astype(str) == bookid])
             self.dfBooks = self.dfBooks[self.dfBooks.bookID.astype(str) != bookid]
+            self.dfBooksIssued = self.dfBooksIssued[self.dfBooksIssued.bookID.astype(str) != bookid]
             self.dfBooks.to_csv('books.csv',index=False)
+            self.dfBooksIssued.to_csv('booksIssued.csv',index=False)
 
         else:
             print('error while deleting book',id)

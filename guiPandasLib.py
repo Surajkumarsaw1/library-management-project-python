@@ -306,21 +306,21 @@ update(dfBooksIssued,trv2)
 #Search Section
 
 lbl = Label(wrapper3, text='Search')
-#lbl.pack(side=tk.LEFT, padx=10)
-lbl.place(relx=0.01,rely=0.01, relwidth=0.4,relheight=0.2)
+lbl.pack(side=tk.LEFT, padx=10)
+#lbl.place(relx=0.01,rely=0.01, relwidth=0.4,relheight=0.2)
 
 end = Entry(wrapper3, textvariable=q)
-#end.pack(side=tk.LEFT, padx=6)
-end.place(relx=0.3,rely=0.01, relwidth=0.60,relheight=0.2)
+end.pack(side=tk.LEFT, padx=6)
+#end.place(relx=0.3,rely=0.01, relwidth=0.60,relheight=0.2)
 
 btn1 = Button(wrapper3, text='Search', command=searchall)
-btn1.place(relx=0.3,rely=0.4, relwidth=0.40,relheight=0.2)
-#btn1.pack(side=tk.LEFT, padx=6)
+#btn1.place(relx=0.3,rely=0.4, relwidth=0.40,relheight=0.2)
+btn1.pack(side=tk.LEFT, padx=6)
 
 
 btn2 = Button(wrapper3, text='Clear Search', command=clearall)
-btn2.place(relx=0.3,rely=0.7, relwidth=0.40,relheight=0.2)
-#btn2.pack(side=tk.LEFT, padx=6)
+#btn2.place(relx=0.3,rely=0.7, relwidth=0.40,relheight=0.2)
+btn2.pack(side=tk.LEFT, padx=6)
 
 #User Data section
 
@@ -343,12 +343,12 @@ lbl31 = Label(wrapper4, text='Auther')
 lbl31.grid(row=2, column=0, padx=10, pady=4)
 ent31 = Entry(wrapper4, textvariable=t3)
 ent31.grid(row=2, column=1,padx=4, pady=4)
-
+'''
 lbl41 = Label(wrapper4, text='Status')
 lbl41.grid(row=3, column=0, padx=10, pady=4)
 ent41 = Entry(wrapper4, textvariable=t4)
 ent41.grid(row=3, column=1,padx=4, pady=4)
-
+'''
 up_btn = Button(wrapper4, text='Issue', command=issue_book)
 add_btn = Button(wrapper4, text='Add', command=add_new)
 delete_btn = Button(wrapper4, text='Delete', command=delete_book)

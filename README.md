@@ -1,12 +1,25 @@
 # Library-management-project-python
 A library management system keeps track of the books present in the library. It is an important piece of software which is a must at schools and colleges. We will build a library management system using Tkinter to make it interactive.
 
-## Using Pandas 
+## Using Pandas ( installing dependency )
+
+### Windows
+
+If in same folder of this project
+```bash
+pip install -r requirements.txt
+```
+Or
+```bash
+pip install pandas pillow pymysql
+```
+
+### Linux (Debian)
 
 ```bash
 sudo apt install python3 python3-pip python3-tk 
-pip install pandas 
-pip3 install pandas || sudo pip3 install pandas 
+pip install -r requirements.txt
+pip3 install -r requirements.txt || sudo pip3 install -r requirements.txt
 ```
 
 ### Gui Mode 

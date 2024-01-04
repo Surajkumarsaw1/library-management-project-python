@@ -68,11 +68,11 @@ python3 cliPandasLib.py
 
 ### Light Theme
 
-![Light theme](https://github.com/Surajkumarsaw1/library-management-project-python/blob/main/imgs/light_theme.png?raw=true)
+![Light theme](imgs/light_theme.jpg)
 
 ### Dark Theme
 
-![Dark theme](https://github.com/Surajkumarsaw1/library-management-project-python/blob/main/imgs/dark_theme.png?raw=true)
+![Dark theme](imgs/dark_theme.jpg)
 
 ## Contributing
 

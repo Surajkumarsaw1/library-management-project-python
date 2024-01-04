@@ -1,45 +1,83 @@
-# Library-management-project-python
-A library management system keeps track of the books present in the library. It is an important piece of software which is a must at schools and colleges. We will build a library management system using Tkinter to make it interactive.
+# Library Management System in Python
 
-## Using Pandas ( installing dependency )
+Streamline the management of your library's collection with this user-friendly and interactive Python application.
 
-### Windows
+## Overview
 
-If in same folder of this project
+- **Efficient Book Tracking:** Keep track of your library's inventory effortlessly.
+- **Intuitive Interface:** Interact seamlessly with the system using a Tkinter-based GUI.
+- **User-Friendly Modes:** Choose between GUI and CLI modes based on your preferences.
+- **Appealing Design:** Experience a visually engaging interface with light and dark theme options.
+
+## Installation
+
+**Prerequisites:**
+
+- Python 3
+- pip
+
+## Dependencies
+
+- pandas
+- pillow
+- pymysql
+
+**Installation Steps:**
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Surajkumarsaw1/library-management-project-python.git
+   ```
+
+2. **Navigate to the project directory:**
+
+   ```bash
+   cd library-management-project-python
+   ```
+
+3. **Install dependencies:**
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+   For Linux (Debian):
+
+   ```bash
+   sudo apt install python3 python3-pip python3-tk 
+   pip install -r requirements.txt
+   pip3 install -r requirements.txt || sudo pip3 install -r requirements.txt
+   ```
+
+## Usage
+
+**GUI Mode:**
+
 ```bash
-pip install -r requirements.txt
-```
-Or
-```bash
-pip install pandas pillow pymysql
+python3 guiPandasLib.py
 ```
 
-### Linux (Debian)
+**CLI Mode:**
 
 ```bash
-sudo apt install python3 python3-pip python3-tk 
-pip install -r requirements.txt
-pip3 install -r requirements.txt || sudo pip3 install -r requirements.txt
+python3 cliPandasLib.py
 ```
 
-### Gui Mode 
+## Sample Screenshots
 
-```bash
-sudo apt install git
-git clone https://github.com/Surajkumarsaw1/library-management-project-python.git
-cd library-management-project-python
-python3 guiPandasLib.py || sudo python3 guiPandasLib.py
-```
+### Light Theme
 
-### Cli Mode
+![Light theme](https://github.com/Surajkumarsaw1/library-management-project-python/blob/main/imgs/light_theme.png?raw=true)
 
-```bash
-sudo apt install git
-git clone https://github.com/Surajkumarsaw1/library-management-project-python.git
-cd library-management-project-python
-python3 cliPandasLib.py || sudo python3 cliPandasLib.py
-```
+### Dark Theme
 
-## Sample images
-![Light theme](./imgs/light_theme.png)
-![Dark theme](./imgs/dark_theme.png)
+![Dark theme](https://github.com/Surajkumarsaw1/library-management-project-python/blob/main/imgs/dark_theme.png?raw=true)
+
+## Contributing
+
+Feel free to contribute by opening issues or submitting pull requests. Your contributions are valuable!
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
